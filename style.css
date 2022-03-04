@@ -1,0 +1,67 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:rgb(171, 171, 250);
+    padding: 10px;
+    position: relative;
+  height: 6vh;
+}
+header h2{
+    margin-left: 10vw;
+    font-weight: 500;
+    
+}
+footer{
+    
+    background-color: black;
+    color: white;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:88vh;
+}
+.container{
+    background-color: rgb(103, 159, 206);
+    width: 50vw;
+    height: 50vh;
+}
+#city-name{
+text-align: center;
+padding: 20px;
+margin: 10px;
+font-size: large;
+border: 2px solid black;
+}
+#date{
+    text-align: center;
+
+}
+.condition{
+    display: flex;
+    /* border: 2px solid black; */
+    
+}
+#weather-condition{
+    width: 25vw;
+    padding-top: 20vh;
+    padding-left: 10vw;
+    padding-bottom: 13vh;
+    border: 2px solid black;
+}
+#temp{
+    width: 25vw;
+    padding-left: 10vw;
+    padding-top: 20vh;
+    padding-bottom: 13vh;
+    border: 2px solid black;
+}
